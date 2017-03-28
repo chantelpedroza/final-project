@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+.main-nav {
+    background-color: rgba(189, 175, 206, .5);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    height: 60px;
+    
+}
+.nav-list{
+    float: right;
+    list-style: none;
+    
+}
+.nav-item {
+    float: left;
+    margin-left: 15px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: #90afce;
+}
+
+.nav-link:hover {
+    color: #fff;
+}    
+
+.home-background {
+    background-image: url("../images/disney-castle.jpg");
+    height: 500px;
+    margin-bottom: 25px;
+}
+.home-header {
+    margin-top: 0px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 45px;
+    color: #fff;
+}
+.powder-puff {
+    height: 250px;
+    float: right;
+}
+.p-column {
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #90afce;
+    width: 500px;
+    
+}
+
+.body-header {
+    width: 500px;
+    float: left
+    margin-left:25px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #90afce;
+    margin-bottom: 20px;
+     font-family: cursive, bold;
+}
+
+footer {
+    float: left;
+    background-color: rgba(189, 175, 206, .5);
+    border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social-links {
+    text-decoration: none;
+}
+.social-links > .fa {
+    color: blue;
+    font-size: 36px;
+    margin-left: 15px;
+}
+.social-links > .fa:hover {
+    color: #fff;
+}
+/**************** About Styles****************/
+.about-container {
+    background-image: url("../images/pretty.jpg");
+    height: 500px;
+    margin-bottom: 25px;
+    width: 100%;
+    background-size: 100%;
+    border-bottom: 2px solid #000;
+}
+.about-column {
+    width: 40%;
+    float: left;
+    border-bottom: 2px solid #000;
+    padding-left: 10px;
+}
+.about-header {
+    text-align: center;
+    margin-top: 0px;
+    font-family: cursive;
+    font-size: 45px;
+}
+.bio-header {
+    margin-top: 50px;
+}
+.about--column {
+    margin-top: 36.3%;
+}
+.chance {
+    height: 345px;
+}
+/*************** Contact Styles***************/
+.main {
+    margin-top: 0;
+    padding-top: 100px;
+}
+.contact-information {
+    text-align: center;
+    background: pink; 
+    margin-top: -5p;
+    padding: 5px;
+}
+.contact-form {
+    margin-left: 30%;
+    width: 50%;
+    margin-top: 15px;
+}
+.google-maps {
+    width: 100%;
+    margin-top: 59.5px;
+}
